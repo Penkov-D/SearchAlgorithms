@@ -48,7 +48,7 @@ int main(int argc, char** argv)
 		vec.push_back(i);
 
 	// Search for the number 5 in 'vec'
-	std::cout << search(vec, -5) << std::endl;
+	std::cout << search(vec, 5) << std::endl;
 
 	return 0;
 }
